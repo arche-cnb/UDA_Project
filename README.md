@@ -1,16 +1,14 @@
-# React + Vite
+Questa applicazione è stata sviluppata per la gestione intelligente dei parcheggi nella città di Brescia, utilizzando i dati pubblicati da Brescia Mobilità.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+L’obiettivo del progetto è offrire agli utenti una piattaforma semplice e intuitiva per visualizzare i parcheggi disponibili direttamente su mappa e prenotare il posto più adatto alle proprie esigenze.
 
-Currently, two official plugins are available:
+L’applicazione consente infatti di:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+visualizzare i parcheggi disponibili sul territorio;
+selezionare un parcheggio tramite mappa interattiva;
+prenotare posti dedicati a:
+auto,
+moto,
+persone con disabilità.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Il progetto sfrutta dataset pubblici relativi ai parcheggi cittadini per migliorare l’accessibilità, l’organizzazione e la gestione della mobilità urbana.
